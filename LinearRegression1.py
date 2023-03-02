@@ -128,20 +128,24 @@ zz2
 pd.crosstab(index=zz2['Obs_Ind'], columns=zz2['Pred_Ind'])
 
 # Obs-Predicted plot
-plt.plot(Y,pred,'bo')
-plt.plot(Y, Y + 0, linestyle='solid')
+plt.plot(y_test,yt_pred,'bo')
+plt.plot(y_test, y_test + 0, linestyle='solid')
 plt.xlabel('Obs_Ind' )
 plt.ylabel('Pred_Ind' )
 plt.grid()
 
-O = zz2['Obs_Ind']
-p = zz2['Pred_Ind']
-o = np.linspace(0, 10, 1863)
-p = np.sin(O)
 
-plt.plot(O[:1397], p)  # Extract a subset of x that has the same number of elements as y
-plt.show()
+#Breusch Pagan Test for homoskedasticity
+BP = sm.stats.diagnostic.het_breuschpagan(err,X_train)
 
+# tests of Normality
+sm.qqplot(err,line='s')
+plt.grid()
+
+sm.stats.diagnostic.kstest_normal(err, dist='norm')
+
+# Autocorrelation testing
+sm.stats.diagnostic.acorr_breusch_godfrey(res) #need to provide regression model
 
 #from sklearn.linear_model import LinearRegression
 #mod = LinearRegression()

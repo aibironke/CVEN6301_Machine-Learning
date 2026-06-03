@@ -1,5 +1,4 @@
 # CVEN6301 – Machine Learning Applications in Civil Engineering
-
 ## Overview
 
 This repository contains a collection of machine learning projects completed as part of **CVEN 6301: Machine Learning Applications in Civil Engineering**. The projects demonstrate the application of machine learning, deep learning, statistical modeling, and time series analysis to solve real-world civil and environmental engineering problems.
@@ -27,30 +26,28 @@ CVEN6301_Machine-Learning/
 ```
 ---
 
-## Projects
-
-### 1. CNN – Automated Concrete Crack Detection
-
+Projects
+1. CNN – Automated Concrete Crack Detection
 This project applies **Convolutional Neural Networks (CNNs)** for automated detection of cracks in concrete pavement surfaces.
 
-#### Dataset
+Dataset
 
 * 458 labeled concrete images
 * Cracked and uncracked pavement surfaces
 
-#### Objectives
+Objectives
 
 * Develop a deep learning model for crack classification
 * Evaluate image-based damage detection performance
 * Demonstrate computer vision applications in infrastructure inspection
 
-#### Techniques
+Techniques
 
 * Convolutional Neural Networks (CNN)
 * Image preprocessing and augmentation
 * Binary image classification
 
-#### Applications
+Applications
 
 * Pavement condition assessment
 * Infrastructure monitoring
@@ -58,17 +55,17 @@ This project applies **Convolutional Neural Networks (CNNs)** for automated dete
 
 ---
 
-### 2. Groundwater Vulnerability Assessment
+2. Groundwater Vulnerability Assessment
 
 This project investigates groundwater vulnerability using nitrate concentration as an indicator of contamination susceptibility.
 
-#### Objectives
+Objectives
 
 * Identify environmental factors influencing groundwater quality
 * Evaluate predictor importance
 * Develop statistical and machine learning models for vulnerability assessment
 
-#### Techniques
+Techniques
 
 * Correlation analysis
 * Variance Inflation Factor (VIF)
@@ -76,7 +73,7 @@ This project investigates groundwater vulnerability using nitrate concentration 
 * Linear regression
 * Model diagnostics and validation
 
-#### Applications
+Applications
 
 * Groundwater protection planning
 * Environmental risk assessment
@@ -84,23 +81,23 @@ This project investigates groundwater vulnerability using nitrate concentration 
 
 ---
 
-### 3. Project 2 – Groundwater Contamination Prediction and Risk Evaluation
+3. Project 2 – Groundwater Contamination Prediction and Risk Evaluation
 
 This project compares the performance of multiple machine learning algorithms for predicting groundwater contamination and evaluating contamination risks in wells.
 
-#### Objectives
+Objectives
 
 * Compare predictive accuracy across machine learning models
 * Identify the most influential contamination drivers
 * Assess contamination risk at groundwater wells
 
-#### Techniques
+Techniques
 
 * Classification and regression models
 * Model performance comparison
 * Risk evaluation and interpretation
 
-#### Applications
+Applications
 
 * Groundwater monitoring programs
 * Environmental decision support
@@ -108,28 +105,28 @@ This project compares the performance of multiple machine learning algorithms fo
 
 ---
 
-### 4. Time Series Analysis of Groundwater Levels
+4. Time Series Analysis of Groundwater Levels
 
 This project develops forecasting models for groundwater levels in three aquifer systems located in the southern United States.
 
-#### Objectives
+Objectives
 
 * Analyze temporal groundwater level trends
 * Forecast future groundwater levels
 * Evaluate model performance across multiple aquifers
 
-#### Study Areas
+Study Areas
 
-* Three aquifers in the Southern United States
+* Three aquifers in the Southern United States: Comal, Edwards, 
 
-#### Techniques
+Techniques
 
 * Time series decomposition
 * Trend and seasonality analysis
 * Forecasting models
 * Time series performance evaluation
 
-#### Applications
+Applications
 
 * Groundwater resource planning
 * Drought preparedness
@@ -137,14 +134,14 @@ This project develops forecasting models for groundwater levels in three aquifer
 
 ---
 
-## Technologies Used
+Technologies Used
 
-### Programming Languages
+Programming Languages
 
 * Python
 * R
 
-### Libraries and Frameworks
+Libraries and Frameworks
 
 * Scikit-Learn
 * TensorFlow / Keras
@@ -156,7 +153,7 @@ This project develops forecasting models for groundwater levels in three aquifer
 
 ---
 
-## Learning Outcomes
+Learning Outcomes
 
 The projects collectively demonstrate:
 
@@ -182,5 +179,3 @@ Research interests include machine learning, geospatial analytics, infrastructur
 ---
 
 
-
-This repository is intended for educational and research purposes.

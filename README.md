@@ -167,9 +167,9 @@ The projects collectively demonstrate:
 
 ---
 
-## Author
+Author
 
-**Ademola Ibironke**
+Ademola Ibironke
 
 Doctor of Engineering (Civil Engineering – Transportation)
 
